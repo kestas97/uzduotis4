@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.container {
+  border: 3px solid green;
+  height: 200px;
+  width: 40cm;
+  margin: 40px;
+  margin-top: 10px;
+  position: relative;
+  bottom: 0;
+}
+
+.container div {
+    position: absolute;
+}
+
+p {
+  text-align: left;
+}
+img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 100%;
+}
